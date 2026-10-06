@@ -4,128 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Profile Kelompok 3 - X TKJ 3</title>
+    <title>Profile Kelompok 3</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        body {
-            background: linear-gradient(135deg, #0f172a, #1e3a8a);
-            color: white;
-            min-height: 100vh;
-        }
+<body>
 
-        header {
-            text-align: center;
-            padding: 60px 20px 40px;
-        }
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Kelompok 3</div>
 
-        header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#anggota">Anggota</a></li>
+        </ul>
 
-        header p {
-            font-size: 18px;
-            color: #cbd5e1;
-        }
+        <button id="menuButton">☰</button>
+    </nav>
 
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
 
-        .about {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 20px;
-            text-align: center;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-        }
+    <!-- Hero -->
+    <section id="home" class="hero">
 
-        .about h2 {
-            margin-bottom: 15px;
-        }
+        <div class="hero-content">
+            <p class="subtitle">KODING DAN KECERDASAN ARTIFISIAL</p>
 
-        .about p {
-            color: #dbeafe;
-            line-height: 1.7;
-        }
+            <h1>
+                PROFILE<br>
+                <span>KELOMPOK 3</span>
+            </h1>
 
-        .members-title {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
+            <p class="description">
+                X TKJ 3
+            </p>
 
-        .members {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
+            <a href="#anggota" class="btn">
+                Lihat Anggota
+            </a>
+        </div>
 
-        .card {
-            background: white;
-            color: #0f172a;
-            padding: 25px;
-            border-radius: 20px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-        }
+    </section>
 
-        .card:hover {
-            transform: translateY(-8px);
-        }
 
-        .avatar {
-            width: 80px;
-            height: 80px;
-            margin: auto;
-            margin-bottom: 15px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #2563eb, #7c3aed);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 28px;
-            font-weight: bold;
-            color: white;
-        }
+    <!-- Tentang -->
+    <section id="tentang" class="section">
 
-        .card h3 {
-            font-size: 18px;
-            margin-bottom: 8px;
-        }
+        <h2>Tentang Kelompok</h2>
 
-        .card p {
-            color: #64748b;
-        }
+        <div class="about-box">
 
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            margin-top: 30px;
-            color: #cbd5e1;
-        }
+            <p>
+                Kami adalah Kelompok 3 dari kelas X TKJ 3.
+                Kelompok kami terdiri dari enam anggota yang
+                bekerja sama dalam mengerjakan tugas dan
+                proyek pada mata pelajaran Koding dan
+                Kecerdasan Artifisial.
+            </p>
 
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: 0.3s;
-        }
+            <div class="info">
+                <div>
+                    <h3>🎓 Kelas</h3>
+                    <p>X TKJ 3</p>
+                </div>
 
-        .button:hover {
-           
+                <div>
+                    <h3>👥 Anggota</h3>
+                    <p>6 Orang</p>
+                </div>
+
+                <div>
+                    <h3>💻 Jurusan</h3>
+                    <p>TKJ</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Anggota -->
+    <section id="anggota" class="section members-section">
+
+        <h2>Anggota Kelompok</h2>
+
+        <div class="members">
+
+            <div class="card">
+                <div class="avatar">NF</div>
+                <h3>Naufal Faiz Yonayulita</h3>
+                <p>No. Absen: 32</p>
+            </div>
+
+
+            <div class="card">
+                <div class="avatar">DA</div>
+                <h3>Dzikri Anandito Viali Shohada</h3>
+                <p>No. Absen: 09</p>
+            </div>
+
+
+            <div class="card">
+                <div class="avatar">DP</div>
+                <h3>Dhea Amelia Putri</h3>
+                <p>No. Absen: 08</p>
+            </div>
+
+
+            <div class="card">
+                <div class="avatar">GA</div>
+                <h3>Gilang Alfaro</h3>
+                <p>No. Absen: 13</p>
+            </div>
+
+
+            <div class="card">
+                <div class="avatar">RA</div>
+                <h3>Rui Alpian</h3>
+                <p>No. Absen: 40</p>
+            </div>
+
+
+            <div class="card">
+                <div class="avatar">FA</div>
+                <h3>Fardan Alfaqih</h3>
+                <p>No. Absen: 11</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Kelompok 3</h3>
+
+        <p>
+            X TKJ 3 • Koding dan Kecerdasan Artifisial
+        </p>
+
+        <p class="copyright">
+            © 2026 Kelompok 3
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
